@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  freegeoip:
+    image: 'fiorix/freegeoip:latest'
+    restart: always
+    ports:
+      - '8080:8080'
